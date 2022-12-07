@@ -1,0 +1,190 @@
+.fondo {
+    background-color: #1C1E22;
+}
+
+
+div {
+    position: absolute;
+    width: 1430px;
+    height: 839px;
+    left: calc(50% - 1430px/2 + 4px);
+    top: calc(50% - 839px/2 + 162.5px);
+    mix-blend-mode: normal;
+    border-radius: 20px;
+}
+
+
+#logo {
+    position: relative;
+    left: 2%;
+    width: 17%;
+    height: 5%;
+    margin-top: 0.5%;
+}
+
+#div_cabecera {
+    width: 40%;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    align-items: center;
+}
+
+#titulo {
+
+    text-shadow: #1C1E22 2em 2em 2em;
+    background-color: #1C1E22;
+    margin: auto;
+    margin-top: -7%;
+    text-align: center;
+    font-family: 'MortalKombat4';
+    font-weight: 100;
+    font-size: 106px;
+    line-height: 131px;
+    letter-spacing: -0.03em;
+    color: white;
+    right: 4%;
+
+
+}
+
+#subtitulo {
+    background-color: #1C1E22;
+    margin: auto;
+    margin-top: 1%;
+    font-family: 'Montserrat_cursiva';
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: MortalKombat4;
+    src: url(../css/MK4.TTF);
+}
+
+
+#login-box {
+    background-color: #ffffff;
+    border-radius: 1em;
+    width: 20%;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20%;
+    padding: 40px 70px;
+    position: absolute;
+    top: 20px;
+    right: 3%;
+
+}
+
+#login-box h1 {
+    font-size: 35px;
+    font-weight: 999px;
+    height: 50px;
+    color: #00a8f3;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+.correo {
+    font-size: 10px;
+    height: 300px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    right: 10%;
+}
+
+.contraseña {
+    height: 500px;
+    margin-top: -70px;
+    font-size: 10px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.boton_personalizado {
+
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #00A8F3;
+    border-radius: 6px;
+    border: 2px solid #00A8F3;
+    height: 300px;
+    width: 700px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.boton_personalizado:hover {
+
+    color: #00A8F3;
+    background-color: #ffffff;
+
+}
+
+.botoninicio {
+    position: absolute;
+    margin-top: 210px;
+    margin-bottom: 300px;
+    margin-left: 5%;
+}
+
+
+
+input {
+
+    border-color: #00A8F3;
+    font-weight: bold;
+    width: 280px;
+    margin-right: 4%;
+
+}
+
+.boton_salir {
+    border: 1px solid #ff0000;
+    /*anchura, estilo y color borde*/
+    padding: 5px;
+    /*espacio alrededor texto*/
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ff0000;
+    /*color botón*/
+    color: #ffffff;
+    /*color texto*/
+    font-weight: 900;
+    font-size: large;
+    text-decoration: none;
+    /*decoración texto*/
+    text-transform: uppercase;
+    /*capitalización texto*/
+    border-radius: 1em;
+    position: absolute;
+    margin-top: 445px;
+    margin-left: -15%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.boton_salir:hover {
+    color: #ff0000;
+    background-color: #ffffff;
+
+}
+
+.imagendefondo {
+    background-image: url(../img/espadas.jpg);
+    width: 100%;
+    left: 0%;
+    margin-top: 7%;
+    filter: blur(1.5px);
+
+}

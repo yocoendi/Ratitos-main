@@ -1,0 +1,433 @@
+.fondo {
+    background-color: white;
+   
+    height: auto;
+    
+}
+@media (max-width:767px) {
+
+
+    
+}
+
+@media (min-width:767px) and (max-width:990px){
+    
+}
+
+@media (min-width:991px) {
+    
+}
+
+
+
+div {
+    position: absolute;
+    width: 1430px;
+    height: 839px;
+    left: calc(50% - 1430px/2 + 4px);
+    top: calc(50% - 839px/2 + 162.5px);
+    mix-blend-mode: normal;
+    border-radius: 20px;
+}
+
+
+
+.header-content{
+
+    
+    max-width: 200%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo{
+
+    margin-left:auto ;
+    margin-bottom: 600%;
+    width: 10px;
+    height: 100px;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#logo{
+
+    float: left;
+    width: 15%;
+    height: 18%;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+#div_cabecera{
+    width: 50%;
+    float: left;
+    margin-left: 22%;
+    margin-top: -100px;
+}
+
+
+#titulo{
+    font-style: normal;
+    margin: auto;
+    font-family: 'ProductSans';
+    font-weight: 400;
+    font-size: 800%;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: -0.03em;
+    color: rgb(14, 41, 131);
+
+}
+
+#subtitulo{
+    margin: auto;
+    font-family:'ProductSans';
+    color:  rgb(14, 41, 131);
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: -20%;
+    
+}
+
+#div_barra_botones{
+    float: top;
+    position: absolute;
+    top: 75%;
+    border-style: solid white;
+    margin-top: -2%;
+   
+}
+
+.barra_botones{
+    background-color:  rgb(14, 41, 131);
+    margin-top: -10%;
+    position: relative;
+    top: 24.5%;
+    width: 100%;
+    height: 5%;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+        
+li{
+    display: inline-table;
+    vertical-align: top;
+    
+}
+
+.botones_menu{
+    
+    font-size: 30px;
+    display: block;
+    line-height: 160%;
+    padding: 0 35px;
+    text-transform: uppercase;
+    letter-spacing: 2%;
+    position: relative;
+    font-weight: 200;
+    color: white;
+    font-family: 'ProductSans'
+    
+}
+
+.botones_menu::after{
+    content: '';
+  
+    top: -1%;
+    left: 0;
+    right: 0;
+    bottom: 12%;
+    z-index: -1;
+    transform: skewX(-30deg);
+    opacity: 0;
+    transition: opacity 0.5s;
+    background-color: rgb(14, 41, 131);
+   
+    
+}
+
+.botones_menu:hover:after {
+    opacity: 1;
+}
+
+.botones_inicio_sesion {
+ 
+    margin-left: 28px;
+    float: right;
+    position: relative;
+    top: 10%;
+    margin-bottom: 30%;
+    margin-top: -10%;
+    margin-right: -1%;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat';
+    font-weight:900;
+    font-size:medium;
+    
+    background: rgb(14, 41, 131);
+    color: #dcc2e4;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.boton_ubicacion{
+    width: 200px;
+    height: 50px;
+    background: rgb(14, 41, 131);
+    color: #dcc2e4;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+/*Supongamos que nuestro contenedor mide 150px x 150px*/
+.contenedor{
+    width: 400px;
+    height:400px;
+    margin-top: 30%;
+    margin-left: -8%;
+  }
+
+  .contenedor1{
+    width: 400px;
+    height:400px;
+    margin-top: 30%;
+    margin-left: 14%;
+  }
+  .contenedor2{
+    width: 400px;
+    height:400px;
+    margin-top:30%;
+    margin-left: 36%;
+  }
+  .contenedor3{
+    width: 400px;
+    height:400px;
+    margin-top: 30%;
+    margin-left: 58%;
+  }
+  .contenedor4{
+    width: 400px;
+    height:400px;
+    margin-top: 5%;
+    margin-left: -8%;
+  }
+
+  .contenedor5{
+    width: 400px;
+    height:400px;
+    margin-top: 5%;
+    margin-left: 14%;
+  }
+  .contenedor6{
+    width: 400px;
+    height:400px;
+    margin-top: 5%;
+    margin-left: 36%;
+  }
+  .contenedor7{
+    width: 400px;
+    height:400px;
+    margin-top: 5%;
+    margin-left: 58%;
+  }
+
+  /*Aplicamos la propiedad object-fit cover, ajustar su tamaño y no perder la proporcion de nuestra imagen*/
+  img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+  }
+
+  .ubicacion{
+    width: 500px;
+    height:400px;
+    margin-top: 5%;
+    margin-left: 2em;
+    background-color: white;
+    font-size: 20PX;
+    padding-left: 2%;
+    
+  }
+ 
+
+
+
+
+
+
+.container-footer{
+    width: 110%;
+    height: 60%;
+    
+    float: top;
+    margin-top: 52%;
+    margin-left: -15%;
+}
+
+.container-footer footer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-footer footer .logo-footer{
+    text-align: center;
+}
+
+.container-footer footer .logo-footer img{
+    width: 100px;
+    margin-top: -2%;
+}
+
+.container-footer footer .redes-footer{
+    display: flex;
+    justify-content: left;
+    margin-top: 40px;
+    margin-left: 305px;
+    
+}
+
+
+.container-footer footer .redes-footer .icon-redes-footer{
+   
+    margin: 20px;
+    margin-top: 340px;
+    border-bottom: #dcc2e4;
+    background:rgb(14, 41, 131);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: white;
+}
+
+footer .redes-footer .fa-facebook-f:hover{
+    background: #41579A;
+    color: #fff;
+    
+}
+
+footer .redes-footer .fa-twitter:hover{
+    background: #2890e6;
+    color: #fff;
+}
+
+footer .redes-footer .fa-instagram:hover{
+    background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+    color: #fff;
+}
+
+
+.container-footer footer hr{
+    margin-top: 20px;
+    border: none;
+    height: 2px;
+    background: #c0c0c07a;
+}
+
+
+.container-footer h4{
+    text-align: center;
+    margin-top: 40px;
+    color: #8e8e8e;
+    font-weight: 500;
+}
+
+button:hover {
+    color: #00A8F3;
+}
+
+button span {
+ 
+    background: #00A8F3;
+    transition: .5s;
+}
+
+button span:nth-child(1) {
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: -100%;
+}
+
+button span:nth-child(2) {
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    right: -100%;
+}
+
+button span:nth-child(3) {
+    width: 1px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+}
+
+button span:nth-child(4) {
+    width: 1px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+
+button:hover span:nth-child(1) {
+    left: 0;
+}
+
+button:hover span:nth-child(2) {
+    right: 0;
+}
+
+button:hover span:nth-child(3) {
+    bottom: 0;
+}
+
+button:hover span:nth-child(4) {
+    top: 0;
+}
+
+@font-face {
+    font-family: MortalKombat4;
+    src: url(../Fuentes/MK4.TTF);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../Alvaro_SoftKombat/Montserrat_normal.ttf);
+}
+
+
+@font-face {
+    font-family: Montserrat_cursiva;
+    src: url(../Alvaro_SoftKombat/Montserrat_cursiva.ttf);
+}
+
+@font-face {
+    font-family: ProductSans-Bold;
+    src: url(../softKombat/css/ProductSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Product-Regular;
+    src: url(../softKombat/css/ProductSans-Regular.ttf);
+}
