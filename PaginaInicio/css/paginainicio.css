@@ -9,30 +9,15 @@ body {
 
 @media (min-width:991px) {}
 
-/* div {
-    position: absolute;
-    width: 1430px;
-    height: 839px;
-    left: calc(50% - 1430px/2 + 4px);
-    top: calc(50% - 839px/2 + 162.5px);
-    mix-blend-mode: normal;
-    border-radius: 20px;
-} */
 
-.header-content {
-    max-width: 200%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-}
+
 
 .logo {
 
     margin-left: auto;
     margin-bottom: 600%;
-    width: 10px;
-    height: 100px;
+    width: 200px;
+    height: 300px;
     margin-right: auto;
     display: flex;
     justify-content: center;
@@ -42,79 +27,60 @@ body {
 
 #logo {
 
-    float: left;
+ 
     width: 15%;
-    height: 18%;
-    margin-left: 4%;
-    margin-top: 1%;
+    height: 10%;
+    margin-top: 15px;
+    margin-left: 33px;
+    
 }
 
 #div_cabecera {
-    width: 50%;
-    float: left;
-    margin-left: 22%;
-    /* margin-top: -100px; */
+ 
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    
+   
+    
 }
 
 
-#titulo {
-    font-style: normal;
-    margin: auto;
+#titulo { 
     font-family: 'ProductSans';
-    font-weight: 400;
     font-size: 800%;
-    margin-right: auto;
-    margin-left: auto;
-    letter-spacing: -0.03em;
     color: rgb(14, 41, 131);
+    margin-top: 10px;
+    margin-left: 18%;
 
 }
 
 #subtitulo {
-    margin: auto;
+ 
     font-family: 'ProductSans';
     color: rgb(14, 41, 131);
     font-weight: 900;
     font-size: 25px;
-    margin-left: -20%;
+    margin-left: -38%;
+    margin-top: 150px;
 
 }
 
-/* #div_barra_botones {
-    float: top;
-    position: absolute;
-    top: 75%;
-    border-style: solid white;
-    margin-top: -2%;
 
-} */
-
-/* .barra_botones {
+* .barra_botones {
     background-color: rgb(14, 41, 131);
     margin-top: -10%;
     position: relative;
     top: 24.5%;
     width: 100%;
     height: 5%;
+    
 
-} */
-/* 
-ul {
-    margin: 0;
-    padding: 0;
-    font-size: 0;
-    position: relative;
-    z-index: 1;
-    text-align: center;
-} */
-/* 
-li {
-    display: inline-table;
-    vertical-align: top;
+} 
 
-} */
-
-/* .botones_menu {
+* .botones_menu {
     font-size: 30px;
     display: block;
     line-height: 160%;
@@ -125,9 +91,9 @@ li {
     font-weight: 200;
     color: white;
     font-family: 'ProductSans'
-} */
+} 
 
-/* .botones_menu::after {
+* .botones_menu::after {
     content: '';
     position: absolute;
     top: -1%;
@@ -139,33 +105,26 @@ li {
     opacity: 0;
     transition: opacity 0.5s;
     background-color: rgb(14, 41, 131);
-} */
+} 
 
-/* .botones_menu:hover:after {
+* .botones_menu:hover:after {
     opacity: 1;
-} */
+} 
 
 .botones_inicio_sesion {
-
-    margin-left: 28px;
-    float: right;
-    position: relative;
-    top: 10%;
-    margin-bottom: 30%;
-    margin-top: -10%;
-    margin-right: -1%;
-    padding: 10px 15px;
+    height: 2%;
+    margin-top:  4%;
+    padding: 10px;
     border: none;
-    outline: none;
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: medium;
-
+    border-radius: 5px;  
+    font-family: 'ProductSans';
     background: rgb(14, 41, 131);
-    color: #dcc2e4;
-    cursor: pointer;
-    overflow: hidden;
+    
+}
 
+.textoBoton{
+    color: white;
+    text-decoration: none;
 }
 
 .boton_ubicacion {
@@ -180,63 +139,22 @@ li {
 
 /*Supongamos que nuestro contenedor mide 150px x 150px*/
 .contenedor {
-    width: 400px;
+    width: 460.6px;
     height: 400px;
-    /* margin-top: 30%;
-    margin-left: -8%; */
+  
 }
 
-/* .contenedor1{
-    width: 400px;
-    height:400px;
-    margin-top: 30%;
-    margin-left: 14%;
-  }
- .contenedor2{
-    width: 400px;
-    height:400px;
-    margin-top:30%;
-    margin-left: 36%;
-  }
-  .contenedor3{
-    width: 400px;
-    height:400px;
-    margin-top: 30%;
-    margin-left: 58%;
-  }
-  .contenedor4{
-    width: 400px;
-    height:400px;
-    margin-top: 5%;
-    margin-left: -8%;
-  }
-
-  .contenedor5{
-    width: 400px;
-    height:400px;
-    margin-top: 5%;
-    margin-left: 14%;
-  }
-  .contenedor6{
-    width: 400px;
-    height:400px;
-    margin-top: 5%;
-    margin-left: 36%;
-  }
-  .contenedor7{
-    width: 400px;
-    height:400px;
-    margin-top: 5%;
-    margin-left: 58%;
-  }  */
 
 #div_barra_botones {
-background-color: yellow;
+background-color:  rgb(14, 41, 131);
+margin-top: 1%;
 }
 
 #ul_barra_inicio {
 display: flex;
+
 gap: 10px;
+
 }
 
 #ul_barra_inicio li {
@@ -248,11 +166,12 @@ gap: 10px;
 }
 
 #imagenes {
-    background-color: red;
+   
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     gap: 20px;
+    margin-top: 10px;
 }
 
 /*Aplicamos la propiedad object-fit cover, ajustar su tamaño y no perder la proporcion de nuestra imagen*/
@@ -352,11 +271,11 @@ footer .redes-footer .fa-instagram:hover {
     font-weight: 500;
 }
 
-/* button:hover {
+* button:hover {
     color: #00A8F3;
-} */
+} 
 
-/* button span {
+* button span {
     position: absolute;
     background: #00A8F3;
     transition: .5s;
