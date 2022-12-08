@@ -1,28 +1,9 @@
-body {
-    background-color: white;
-    height: auto;
-}
 
 @media (max-width:767px) {}
 
 @media (min-width:767px) and (max-width:990px) {}
 
 @media (min-width:991px) {}
-
-
-
-
-.logo {
-
-    margin-left: auto;
-    margin-bottom: 600%;
-    width: 200px;
-    height: 300px;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 
 #logo {
@@ -32,6 +13,10 @@ body {
     height: 10%;
     margin-top: 15px;
     margin-left: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
     
 }
 
@@ -137,7 +122,6 @@ body {
 
 }
 
-/*Supongamos que nuestro contenedor mide 150px x 150px*/
 .contenedor {
     width: 460.6px;
     height: 400px;
@@ -295,33 +279,4 @@ button span:nth-child(2) {
     right: -100%;
 }
 
-button span:nth-child(3) {
-    width: 1px;
-    height: 100%;
-    bottom: -100%;
-    left: 0;
-}
-
-button span:nth-child(4) {
-    width: 1px;
-    height: 100%;
-    top: -100%;
-    right: 0;
-}
-
-button:hover span:nth-child(1) {
-    left: 0;
-}
-
-button:hover span:nth-child(2) {
-    right: 0;
-}
-
-button:hover span:nth-child(3) {
-    bottom: 0;
-}
-
-button:hover span:nth-child(4) {
-    top: 0;
-} */
 
