@@ -19,6 +19,17 @@
     
     
 }
+#mapa{
+
+    height: auto;
+  
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    margin-top: 10px;
+
+}
 
 #div_cabecera {
  
@@ -31,6 +42,7 @@
    
     
 }
+
 
 
 #titulo { 
@@ -121,6 +133,7 @@
     overflow: hidden;
 
 }
+
 
 .contenedor {
     width: 460.6px;
